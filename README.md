@@ -7,6 +7,5 @@ All syntax configuration for pf.conf here [OpenBSD](https://man.openbsd.org/pf.c
 
 ## Scripts
 * pf-810ck-f4c3800k.sh create a raw list of all IP's under Facebook's AS.
-  * block out
 
 🐡 Have fun!
