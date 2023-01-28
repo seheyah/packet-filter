@@ -1,3 +1,4 @@
+#!/bin/ksh
 ####### pf-810ck-f4c3800k.sh
 ### AUTHOR:     seheyah
 ### CREATION:   2022/05/09
@@ -11,14 +12,14 @@
 # ARRAY
 
 # FILE
-filerun01="/etc//pf-810ck-f4c3800k.sh"
+filerun01="/etc/pf-tables/pf-810ck-f4c3800k.pft"
 filetmp01="/tmp/0.txt"
-filetmp02="/tmp/pf-810ck-f4c3800k.sh"
+filetmp02="/tmp/pf-810ck-f4c3800k.pft"
 
 # STRING
-str0x00="pf-810ck-f4c3800k.sh"
+str0x00="pf-810ck-f4c3800k"
 str0x01="2022/05/09"
-str0x02="Arthur"
+str0x02="Falken"
 str0x03="1.0a"
 
 ### VARIABLE
@@ -26,7 +27,7 @@ str0x03="1.0a"
 
 ##### MAIN
 echo "|-------------------------------------------------------------------------------------------"
-echo "| j05hu4 |-> $str0x00\n|\n|\t Service: PF\n|\t Action: Update $str0x00 table\n|"
+echo "| 0-0-0- |-> $str0x00\n|\n|\t Service: PF\n|\t Action: Update $str0x00 table\n|"
 echo "|\t Version: $str0x03\n|\t Release date: $str0x02\n|\t Release name: $str0x01"
 echo "|-------------------------------------------------------------------------------------------"
 
@@ -39,18 +40,18 @@ echo "|\n|\t Total of previous entries: $b"
 echo "|\t Total of new entries: $a\n|"
 
 echo "|-------------------------------------------------------------------------------------------"
-echo "|\n| j05hu4 |-> Table $str0x00 update in progress"
+echo "|\n| 0-0-0- |-> Table $str0x00 update in progress"
 mv $filetmp02 $filerun01
 
 pfctl -t $str0x00 -T replace -f $filerun01 > /dev/null 2>&1
 
-echo "| j05hu4 |-> Table $str0x00 updated\n|"
+echo "| 0-0-0- |-> Table $str0x00 updated\n|"
 
 rm -f $filetmp01
 rm -f $filetmp02
 
 echo "|-------------------------------------------------------------------------------------------"
-echo "|\n| j05hu4 |-> Clean workspace: done\n|"
+echo "|\n| 0-0-0- |-> Clean workspace: done\n|"
 echo "|-------------------------------------------------------------------------------------------"
 echo "| exit 0"
 echo "|-------------------------------------------------------------------------------------------"
