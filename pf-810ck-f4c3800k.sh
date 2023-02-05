@@ -20,7 +20,7 @@ filetmp02="/tmp/pf-810ck-f4c3800k.pft"
 str0x00="pf-810ck-f4c3800k"
 str0x01="2022/05/09"
 str0x02="Falken"
-str0x03="1.0a"
+str0x03="Oxff"
 
 ### VARIABLE
 # INTEGER
