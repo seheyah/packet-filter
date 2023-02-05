@@ -17,6 +17,7 @@
 
 ## Scripts
 * pf-810ck-f4c3800k.sh create a raw list of all IP's under Facebook's AS.
+  * block out
 
 ## Blueteam - Check new settings
 * You can check through `pfctl` the statitics or the log of pflog0
