@@ -14,13 +14,19 @@
 
 
 ## RAW Tables
-* pf-810ck-81u3734m.pft raw list of all IP's coming from my own honeypot analysis.
+* [pf-810ck-81u3734m.pft](https://github.com/seheyah/packet-filter/blob/main/pf-810ck-81u3734m.pft) raw list of all IP's coming from my own honeypot analysis.
   * block in/out
+  * crontab: @daily
 
 ## Scripts
-* pf-810ck-f4c3800k.sh create a raw list of all IP's under Facebook's AS.
-  * block out
+* [pf-810ck-f4c3800k.sh](https://github.com/seheyah/packet-filter/blob/main/pf-810ck-f4c3800k.sh) create a raw list of all IP's under Facebook's AS.
+  * block in/out
+  * crontab: @daily
 
+* [pf-pf-53cu217y-m41n.sh](https://github.com/seheyah/packet-filter/blob/main/pf-53cu217y-m41n.sh) create a raw list from famous stong providers.
+  * block in/out
+  * crontab: @daily
+    
 ## Blueteam - Check new settings
 * You can check through `pfctl` the statitics or the log of pflog0
   * `pfctl -vvs Tables`
