@@ -7,6 +7,8 @@
 
 ## Prerequisites
  * You need to have an account with doas set correctly.
+ * Create a folder `pf-tables`in etc like:
+   * `mkdir -p /etc/pf-tables`
 
 ## Usage
 
