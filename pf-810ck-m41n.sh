@@ -1,5 +1,5 @@
 #!/bin/ksh
-####### pf-53cu217y-m41n.sh
+####### pf-810ck-m41n.sh
 ### AUTHOR:	seheyah
 ### CREATION:	2020/11/14
 
@@ -19,14 +19,14 @@
 url0x00="https://www.binarydefense.com/banlist.txt https://rules.emergingthreats.net/blockrules/compromised-ips.txt https://iplists.firehol.org/files/firehol_level1.netset https://iplists.firehol.org/files/firehol_level2.netset https://feodotracker.abuse.ch/downloads/ipblocklist.txt http://blocklist.greensnow.co/greensnow.txt https://sslbl.abuse.ch/blacklist/sslipblacklist.txt https://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt https://www.spamhaus.org/drop/drop.txt https://www.spamhaus.org/drop/edrop.txt"
 
 # FILE
-filexall="/etc/pf-tables/pf-53cu217y-m41n.pft"
+filexall="/etc/pf-tables/pf-810ck-m41n.pft"
 filextmp="/tmp/0.txt"
 filextpm="/tmp/x.txt"
 filexend="/tmp/1.txt"
-filexpft="/tmp/pf-53cu217y-m41n.pft"
+filexpft="/tmp/pf-810ck-m41n.pft"
 
 # STRING
-str0x00="pf-53cu217y-m41n"
+str0x00="pf-810ck-m41n"
 str0x01="2021/12/05"
 str0x02="Falken"
 str0x03="0xff"
