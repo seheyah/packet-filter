@@ -23,7 +23,7 @@
   * block in/out
   * crontab: @daily
 
-* [pf-pf-53cu217y-m41n.sh](https://github.com/seheyah/packet-filter/blob/main/pf-53cu217y-m41n.sh) create a raw list from famous stong providers.
+* [pf-810ck-m41n.sh](https://github.com/seheyah/packet-filter/blob/main/pf-810ck-m41n.sh) create a raw list from famous stong providers.
   * block in/out
   * crontab: @daily
     
